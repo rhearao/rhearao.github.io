@@ -416,8 +416,8 @@ WORKS / REFERENCES
   -webkit-transform: scale(1.2, 1.2);
   -ms-transform: scale(1.2, 1.2);
   transform: scale(1.2, 1.2);
-  width: 100px;
-  height: 200px
+  width: 90px;
+  height: 180px
 }
 #detail, #detail2 {
   padding: 20px 0;
