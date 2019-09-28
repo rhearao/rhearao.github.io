@@ -161,7 +161,7 @@ UNIVERSAL SECTION STYLES
   -webkit-backface-visibility: hidden;
 }
 .text-parallax.parallax-image1 {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/home.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./img/home.jpg');
   /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
