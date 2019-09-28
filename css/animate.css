@@ -218,7 +218,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-@keyframes spin {
+@keyframes shake {
   0%, 100% {
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
@@ -238,9 +238,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-.spin {
-  -webkit-animation-name: spin;
-  animation-name: spin;
+.shake {
+  -webkit-animation-name: shake;
+  animation-name: shake;
 }
 
 /* @-moz-keyframes spin {
