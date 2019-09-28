@@ -19,6 +19,7 @@ NAVBAR
 =====================
 */
 .navbar {
+  background: #222222;
   border: none;
 }
 .navbar ul.nav > li > a {
@@ -26,7 +27,7 @@ NAVBAR
   border-top: solid 5px transparent;
 }
 .navbar ul.nav > li > a:hover {
-  border-top: solid 5px #4fbfa8;
+  border-top: solid 5px #DEE0EA;
 }
 @media (max-width: 767px) {
   .navbar ul.nav > li > a:hover {
@@ -36,7 +37,7 @@ NAVBAR
 .navbar ul.nav > li.active > a,
 .navbar ul.nav > li.open > a {
   text-decoration: none !important;
-  border-top: solid 5px #4fbfa8;
+  border-top: solid 5px #07104C;
   font-weight: bold;
 }
 @media (max-width: 767px) {
@@ -123,10 +124,10 @@ UNIVERSAL SECTION STYLES
   }
 }
 .text-gradient {
-  background: #13836c;
+  background: #07104C;
   color: #fff;
-  background-image: -webkit-linear-gradient(top, #45b59e 0%, #13836c 100%);
-  background-image: linear-gradient(to bottom, #45b59e 0%, #13836c 100%);
+  background-image: -webkit-linear-gradient(top, #07104C 0%, #07104C 100%);
+  background-image: linear-gradient(to bottom, #07104C 0%, #07104C 100%);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff13836c', endColorstr='#ff45b59e', GradientType=0);
   padding-bottom: 5px;
@@ -139,7 +140,7 @@ UNIVERSAL SECTION STYLES
   margin-top: 50px;
 }
 .text-gradient3 {
-  background: #13836c;
+  background: #07104C;
   color: #fff;
   padding-bottom: 5px;
   padding-top: 15px;
@@ -270,7 +271,7 @@ ABOUT
 }
 .progress-bar-skill1 {
   background-color: #d1d1d1 !important;
-  background-color: #9adacd !important;
+  background-color: #07104C !important;
 }
 .progress-striped .progress-bar-skill1 {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -282,7 +283,7 @@ ABOUT
 }
 .progress-bar-skill2 {
   background-color: #c8c7c7 !important;
-  background-color: #87d3c4 !important;
+  background-color: #07104C !important;
 }
 .progress-striped .progress-bar-skill2 {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -294,7 +295,7 @@ ABOUT
 }
 .progress-bar-skill3 {
   background-color: #bdbdbd !important;
-  background-color: #74cdba !important;
+  background-color: #07104C !important;
 }
 .progress-striped .progress-bar-skill3 {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -306,7 +307,7 @@ ABOUT
 }
 .progress-bar-skill4 {
   background-color: #b3b2b2 !important;
-  background-color: #62c6b1 !important;
+  background-color: #07104C !important;
 }
 .progress-striped .progress-bar-skill4 {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -318,7 +319,7 @@ ABOUT
 }
 .progress-bar-skill5 {
   background-color: #a9a8a8 !important;
-  background-color: #4fbfa8 !important;
+  background-color: #07104C !important;
 }
 .progress-striped .progress-bar-skill5 {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -336,7 +337,7 @@ SERVICES
 .services .icon {
   font-size: 60px;
   text-align: center;
-  text-shadow: 5px 5px 0 #2d7b6b;
+  text-shadow: 5px 5px 0 #07104C;
 }
 .services .heading {
   font-size: 30px;
@@ -363,8 +364,8 @@ WORKS / REFERENCES
   list-style-type: none;
   font-family: 'Roboto Slab', serif;
   margin-bottom: 30px;
-  border-top: solid 1px #4fbfa8;
-  border-bottom: solid 1px #4fbfa8;
+  border-top: solid 1px #07104C;
+  border-bottom: solid 1px #07104C;
   margin: 0 10px 20px;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -376,7 +377,7 @@ WORKS / REFERENCES
 }
 #filter li.active,
 #filter li:hover, #filter2 li.active, #filter2 li:hover {
-  background: #4fbfa8;
+  background: #07104C;
 }
 #filter li.active a, #filter2 li.active a,
 #filter li:hover a, #filter2 li:hover a {
@@ -605,7 +606,7 @@ TESTIMONIALS
   height: 50px;
 }
 .testimonials .item .testimonial .bottom .icon {
-  color: #4fbfa8;
+  color: #07104C;
   font-size: 30px;
   float: left;
   width: 20%;
@@ -985,6 +986,7 @@ strong {
 }
 /* navbar */
 .navbar {
+  navbar-header
   font-family: 'Roboto Slab', serif;
   min-height: 80px;
   margin-bottom: 30px;
