@@ -275,7 +275,7 @@ ABOUT
   border-radius: 25px;
 }
 .progress-striped .progress-bar-skill1 {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);border-radius: 25px;
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 
@@ -312,7 +312,7 @@ WORKS / REFERENCES
 #filter li, #filter2 li {
   display: inline-block;
   list-style-type: none;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Courier New", Courier, monospace;
   margin-bottom: 30px;
   border-top: solid 1px #07104C;
   border-bottom: solid 1px #07104C;
@@ -495,7 +495,7 @@ SHOWCASE
   color: #fff;
   text-transform: uppercase;
   line-height: 1.5;
-  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Courier New", Courier, monospace;
 }
 .showcase .item h4 span {
   font-weight: 100;
@@ -743,7 +743,7 @@ FOOTER
   margin: 0;
   text-align: right;
   color: #eeeeee;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Courier New", Courier, monospace;
 }
 @media (max-width: 767px) {
   #footer p {
@@ -754,9 +754,9 @@ FOOTER
   margin-top: 0px;
   text-align: center;
   color: #eeeeee;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Courier New", serif;
   font-size: 14px;
-  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Courier New", Courier, monospace;
 }
 #footer p.goodbye a {
   color: #999999;
@@ -1002,7 +1002,7 @@ strong {
   float: left;
   padding: 29px 15px;
   color: #07104C;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Courier New", serif;
   font-size: 22px;
   text-transform: uppercase;
   font-weight: 700;
@@ -1254,7 +1254,7 @@ hr {
 }
 .btn {
   font-weight: normal;
-  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Courier New", Courier, monospace;
   text-transform: uppercase;
   padding: 6px 12px;
   font-size: 16px;
@@ -1413,7 +1413,7 @@ fieldset[disabled] .form-control {
 /* pagination */
 .pagination {
   margin: 22px 0;
-  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Courier New", Courier, monospace;
   border-radius: 0;
 }
 .pagination > li > a,
@@ -1488,7 +1488,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Courier New", serif;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
