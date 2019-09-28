@@ -1,3 +1,3 @@
-# rhearao.github.io
+# Rhea Rao
 
-#Hi this is Rhea and this is a page where I put all my projects.
+#Personal Website
