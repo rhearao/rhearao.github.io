@@ -218,7 +218,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-/* @keyframes spin {
+@keyframes spin {
   0%, 100% {
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
@@ -237,13 +237,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     transform: translateX(10px);
   }
 }
-*/
+
 .spin {
   -webkit-animation-name: spin;
   animation-name: spin;
 }
 
-@-moz-keyframes spin {
+/* @-moz-keyframes spin {
   to { -moz-transform: rotate(360deg); }
 }
 @-webkit-keyframes spin {
@@ -251,7 +251,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 @keyframes spin {
   to {transform:rotate(360deg);}
-}
+} */
 
 @-webkit-keyframes swing {
   20% {
