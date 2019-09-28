@@ -401,9 +401,7 @@ WORKS / REFERENCES
   border-radius: 20px;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  width: 300px;
-  height: 600px;
+  transition: all 0.2s ease-out
 }
 .reference-item .reference a:hover .overlay, .reference-item2 .reference2 a:hover,
 .reference-item .reference a:focus .overlay, .reference-item2 .reference2 a:focus {
@@ -418,8 +416,8 @@ WORKS / REFERENCES
   -webkit-transform: scale(1.2, 1.2);
   -ms-transform: scale(1.2, 1.2);
   transform: scale(1.2, 1.2);
-  width: 300px;
-  height: 600px;
+  width: 250px;
+  height: 500px;
 }
 #detail, #detail2 {
   padding: 20px 0;
@@ -471,8 +469,6 @@ CUSTOMERS
   display: inline-block;
   margin-top: 10px;
   margin-bottom: 10px;
-  width: 300px;
-  height: 600px;
 }
 /*
 =====================
