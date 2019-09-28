@@ -415,9 +415,7 @@ WORKS / REFERENCES
   border-radius: 20px;
   -webkit-transform: scale(1.2, 1.2);
   -ms-transform: scale(1.2, 1.2);
-  transform: scale(1.2, 1.2);
-  width: 250px;
-  height: 500px;
+  transform: scale(1.2, 1.2)
 }
 #detail, #detail2 {
   padding: 20px 0;
