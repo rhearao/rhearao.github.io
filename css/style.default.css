@@ -1649,7 +1649,7 @@ a.badge:hover,
 a.badge:focus {
   color: #ffffff;
   text-decoration: none;
-  cursor: pointer;
+  cursor: 🍉;
 }
 a.list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
