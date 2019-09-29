@@ -1,4 +1,8 @@
 
+.custom {
+  cursor: url(../cursor.png), auto;
+}
+
 /*
 =====================
 BODY, HTML
@@ -1602,7 +1606,7 @@ a.badge:hover,
 a.badge:focus {
   color: #ffffff;
   text-decoration: none;
-  cursor:url('../cursor.png'), auto
+  cursor:url('../cursor.png'), auto;
 }
 a.list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
