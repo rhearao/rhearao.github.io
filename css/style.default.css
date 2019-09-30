@@ -313,10 +313,10 @@ WORKS / REFERENCES
 #filter li, #filter2 li {
   display: inline-block;
   list-style-type: none;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Roboto Slab', serif;
   margin-bottom: 30px;
-  border-top: solid 1px rgb(15, 52, 61);
-  border-bottom: solid 1px rgb(15, 52, 61);
+  border-top: solid 1px #4fbfa8;
+  border-bottom: solid 1px #4fbfa8;
   margin: 0 10px 20px;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -328,7 +328,7 @@ WORKS / REFERENCES
 }
 #filter li.active,
 #filter li:hover, #filter2 li.active, #filter2 li:hover {
-  background: rgb(15, 52, 61);
+  background: #4fbfa8;
 }
 #filter li.active a, #filter2 li.active a,
 #filter li:hover a, #filter2 li:hover a {
@@ -402,7 +402,7 @@ WORKS / REFERENCES
   border-radius: 20px;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out
+  transition: all 0.2s ease-out;
 }
 .reference-item .reference a:hover .overlay, .reference-item2 .reference2 a:hover,
 .reference-item .reference a:focus .overlay, .reference-item2 .reference2 a:focus {
@@ -417,8 +417,6 @@ WORKS / REFERENCES
   -webkit-transform: scale(1.2, 1.2);
   -ms-transform: scale(1.2, 1.2);
   transform: scale(1.2, 1.2);
-  width: 90px;
-  height: 180px
 }
 #detail, #detail2 {
   padding: 20px 0;
