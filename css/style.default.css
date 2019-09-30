@@ -874,7 +874,7 @@ strong {
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
-  background-color: #eeeeee;
+  background-color: #eeeeeec7;
 }
 .nav > li.disabled > a {
   color: #999999;
@@ -886,7 +886,7 @@ strong {
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {
-  background-color: #eeeeee;
+  background-color: #eeeeeede;
   border-color: rgb(15, 52, 61);
 }
 .nav-tabs {
@@ -903,8 +903,8 @@ strong {
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
   color: #555555;
-  background-color: #ffffff;
-  border: 1px solid #dddddd;
+  background-color: #ffffffde;
+  border: 1px solid #ddddddda;
 }
 .nav-pills > li > a {
   border-radius: 0;
@@ -1104,7 +1104,7 @@ strong {
   }
 }
 .navbar-default {
-  background-color: #ffffff9c;
+  background-color: #ffffffc0;
   border-bottom-color: #e6e6e6;
 }
 .navbar-default .navbar-brand {
