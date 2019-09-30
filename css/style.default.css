@@ -315,8 +315,8 @@ WORKS / REFERENCES
   list-style-type: none;
   font-family: 'Roboto Slab', serif;
   margin-bottom: 30px;
-  border-top: solid 1px #4fbfa8;
-  border-bottom: solid 1px #4fbfa8;
+  border-top: solid 1px rgb(12, 39, 58);
+  border-bottom: solid 1px rgb(12, 39, 58);
   margin: 0 10px 20px;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -328,7 +328,7 @@ WORKS / REFERENCES
 }
 #filter li.active,
 #filter li:hover, #filter2 li.active, #filter2 li:hover {
-  background: #4fbfa8;
+  background: rgb(12, 39, 58);
 }
 #filter li.active a, #filter2 li.active a,
 #filter li:hover a, #filter2 li:hover a {
