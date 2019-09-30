@@ -125,10 +125,10 @@ UNIVERSAL SECTION STYLES
   }
 }
 .text-gradient {
-  background: rgb(12, 39, 58);
+  background: rgb(15, 52, 61);
   color: #fff;
-  background-image: -webkit-linear-gradient(top, rgb(12, 39, 58) 0%, rgb(12, 39, 58) 100%);
-  background-image: linear-gradient(to bottom, rgb(12, 39, 58) 0%, rgb(12, 39, 58) 100%);
+  background-image: -webkit-linear-gradient(top, rgb(15, 52, 61) 0%, rgb(15, 52, 61) 100%);
+  background-image: linear-gradient(to bottom, rgb(15, 52, 61) 0%, rgb(15, 52, 61) 100%);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff13836c', endColorstr='#ff45b59e', GradientType=0);
   padding-bottom: 5px;
@@ -315,8 +315,8 @@ WORKS / REFERENCES
   list-style-type: none;
   font-family: 'Roboto Slab', serif;
   margin-bottom: 30px;
-  border-top: solid 1px rgb(12, 39, 58);
-  border-bottom: solid 1px rgb(12, 39, 58);
+  border-top: solid 1px rgb(15, 52, 61);
+  border-bottom: solid 1px rgb(15, 52, 61);
   margin: 0 10px 20px;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -328,7 +328,7 @@ WORKS / REFERENCES
 }
 #filter li.active,
 #filter li:hover, #filter2 li.active, #filter2 li:hover {
-  background: rgb(12, 39, 58);
+  background: rgb(15, 52, 61);
 }
 #filter li.active a, #filter2 li.active a,
 #filter li:hover a, #filter2 li:hover a {
@@ -913,7 +913,7 @@ strong {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: #ffffff;
-  background-color: #4fbfa8;
+  background-color: rgb(15, 52, 61);
 }
 .nav-tabs-justified > li > a {
   border-radius: 0;
@@ -1002,7 +1002,7 @@ strong {
 .navbar-brand {
   float: left;
   padding: 29px 15px;
-  color: #07104C;
+  color: rgb(15, 52, 61);
   font-family: "Courier New", serif;
   font-size: 22px;
   text-transform: uppercase;
@@ -1104,7 +1104,7 @@ strong {
   }
 }
 .navbar-default {
-  background-color: #ffffff;
+  background-color: #ffffff9c;
   border-bottom-color: #e6e6e6;
 }
 .navbar-default .navbar-brand {
